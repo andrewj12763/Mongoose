@@ -2,7 +2,7 @@ module.exports = function(app) {
 
 
   app.get("/", function(req, res) {
-		res.render('home');
+		res.render('home', { article: article });
   });
 
   // // POST route for saving a new todo. You can create a todo using the data on req.body
