@@ -5,3 +5,26 @@ body {
 .header {
 	text-align: center;
 }
+.navbar {
+	background-color: rgb(226, 214, 224);
+	border-radius: .5em;
+}
+.button {
+	background-color: red;
+	border-radius: 1.5em;
+}
+.articlearea {
+	background-color: rgb(226, 214, 224);
+	border-radius: .5em;
+	margin-top: 1em;
+	padding: 2em;
+}
+.title {
+	text-decoration: underline;
+}
+.savebtn {
+	border-radius: .5em;
+	background-color: red;
+	width: 10em;
+  height: 7em;
+}

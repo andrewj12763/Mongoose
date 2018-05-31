@@ -5,8 +5,13 @@ var Schema = mongoose.Schema;
  mhwSchema = new Schema({
   title:{
     type: String,
-    // required: true
-  }
+	},
+	description:{
+		type: String,
+	},
+	url:{
+		type: String,
+	}
 });
 
 mongoose.model('mhw', mhwSchema);
